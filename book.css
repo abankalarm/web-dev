@@ -1,0 +1,176 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFE7A6;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a ,.mainmenubtn{
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover{
+  background-color: #8D76B3;
+}
+
+ 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    position: relative;
+    background-color: #FFC674;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+
+.form_5 .right.relative {
+  margin-top:16px;
+  margin-right:4px
+}
+.form_5 .link1 {
+  margin-left:32px;
+  margin-top:13px
+}
+.form_5 .radio {
+  background:#f7f7f7;
+  padding:14px 32px;
+  margin-bottom:14px
+}
+.form_5 .radio .left {
+  width:108px;
+  padding-left:0
+}
+.form_5 .row {
+  min-height:25px;
+  width:100%;
+  overflow:hidden
+}
+.form_5 .left {
+  width:74px
+}
+.form_5 .input, .form_5 .input1, .form_5 .input2 {
+  background:#fff;
+  border:1px solid #e5e5e5;
+  font:12px Arial, Helvetica, sans-serif;
+  color:#7f7f7f;
+  float:left;
+  padding:2px 7px;
+  height:14px;
+  width:112px !important
+}
+.form_5 .input1 {
+  width:60px !important;
+  margin-right:6px
+}
+.form_5 .input2 {
+  width:11px !important
+}
+.form_5 .col1 {
+  width:247px;
+  padding-left:0
+}
+.form_5 .check_box {
+  padding-left:20px;
+  float:left;
+  padding-top:25px
+}
+.form_5 .check_box span {
+  float:left
+}
+.form_5 .marg_top1 {
+  margin-top:5px
+}
+.form_5 .pad_left1 {
+  padding-left:9px
+}
+.form_5 .help {
+  float:left;
+  margin-left:5px;
+  width:20px;
+  height:20px;
+}
+.form_5 .under {
+  border-bottom:1px solid #f2f2f2;
+  padding-bottom:14px;
+  margin-bottom:13px
+}
+.form_5 .cols {
+  width:196px
+}
+.form_5 .marg_right1 {
+  margin-right:27px
+}
+.form_5 h6 {
+  line-height:23px;
+  padding-left:32px;
+
+  font-weight:normal;
+  padding-bottom:18px
+}
+.form_5 h5 {
+  line-height:23px;
+  padding-left:32px;
+ 
+  font-weight:normal;
+  padding-bottom:18px
+}
+.form_5 .marker_left {
+  float:left;
+
+  width:20px;
+  height:20px;
+  margin-right:17px
+}
+.form_5 .marker_right {
+  float:left;
+ 
+  width:20px;
+  height:20px;
+  margin-left:17px
+}
+.form_5 .select1 {
+  height:25px
+}
+.form_5 .select1 .jqTransformSelectWrapper {
+  float:left;
+  width:121px !important
+}
+.form_5 .select1 .jqTransformSelectWrapper span {
+  float:left;
+  width:112px !important
+}
+.form_5 .cols .left {
+  width:49px;
+  padding-left:9px
+}
+.form_5 .cols .select1 {
+  height:25px
+}
+.form_5 .cols .select1 .left {
+  width:45px;
+  padding-left:0px}

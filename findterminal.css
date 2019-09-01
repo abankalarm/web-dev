@@ -1,0 +1,82 @@
+#hed{
+	text-align: center;
+	margin-top: 0px;
+	background-image: url("flaunt1.jpg");
+	background-repeat: no-repeat;
+     background-position: center;
+    background-size: 500px 200px; 
+    padding: 100px;
+}
+#hed1{
+	text-align: center;
+	margin-top: 0px;
+	background-image: url("flaunt2.jpg");
+	background-repeat: no-repeat;
+     background-position: center;
+    background-size: 500px 200px; 
+    padding: 200px;
+}
+#hed2{
+	text-align: center;
+	margin-top: 0px;
+	background-image: url("flaunt3.jpg");
+	background-repeat: no-repeat;
+     background-position: center;
+    background-size: 500px 200px; 
+    padding: 200px;
+}
+#background {
+  background: url(air3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFE7A6;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a ,.mainmenubtn{
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover{
+  background-color: #8D76B3;
+}
+
+ 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    position: relative;
+    background-color: #FFC674;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+
